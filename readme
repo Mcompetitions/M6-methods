@@ -1,1 +1,4 @@
-Coming soon!
+R and Python scripts to:
+
+i) Download historical prices data for the M6 universe assets
+ii) Compute RPS and IR for a given evaluation period
