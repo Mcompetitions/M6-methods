@@ -18,6 +18,9 @@ assets <- c(
 staring_date <- "2022-01-01"
 data <- getSymbols(assets, src="yahoo", from = staring_date)
 
+#Note that "data" will originally contain information about the daily Open, High, Low, Close, and Adjusted Close prices of the assets, as well as the Volume. 
+#Below, the adjusted close prices - used for evaluating submissions - will be the only variable considered for creating the final data set.
+
 #Merge data and improve the format
 prices <- map(assets, function(x) Ad(get(x)))
 prices <- reduce(prices,merge)
