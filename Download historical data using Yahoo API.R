@@ -1,3 +1,10 @@
+#This is just an example, demonstrating how one may retrieve historical data for the prices of the assets considered in M6 using the Yahoo Finance API.
+
+#The example focuses on the adjusted prices data since these values will be used by the organizers for the evaluation of the submissions made by the participating teams.
+
+#By no means does this example suggest that this is the only data source that should be used for preparing a submission for the M6 competition
+
+
 library(quantmod)
 library(purrr)
 
