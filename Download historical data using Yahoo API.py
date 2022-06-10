@@ -4,7 +4,7 @@ import yfinance as yf
 assets = [
   "ABBV","ACN","AEP","AIZ","ALLE","AMAT","AMP","AMZN","AVB","AVY",
   "AXP","BDX","BF-B","BMY","BR","CARR","CDW","CE","CHTR","CNC",
-  "CNP","COP","CTAS","CZR","DG","DPZ","DRE","DXC","FB","FTV",
+  "CNP","COP","CTAS","CZR","DG","DPZ","DRE","DXC","META","FTV",
   "GOOG","GPC","HIG","HST","JPM","KR","OGN","PG","PPL","PRU",
   "PYPL","RE","ROL","ROST","UNH","URI","V","VRSK","WRK","XOM",
   "IVV","IWM","EWU","EWG","EWL","EWQ","IEUS","EWJ","EWT","MCHI",
