@@ -1,3 +1,5 @@
+# M6-methods
+
 R and Python scripts to:
 
 i) Download historical prices data for the M6 universe assets 
@@ -7,4 +9,4 @@ Currently, the M6 is fetching data using the API provided by https://eodhistoric
 ii) Compute RPS and IR for a given evaluation period
 
 An excel file providing an example of how the RPS and IR can be computed for a dummy submission (similar to the template of the competition). 
-The example is given for the first quanrter of the M6 and the pilot phase.
+The example is given for the first quarter of the M6 and the pilot phase.
