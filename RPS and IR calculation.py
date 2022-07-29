@@ -165,8 +165,7 @@ def IR_calculation(hist_data, submission):
     return output
     
 #Run evaluation
-RPS_calculation(hist_data = asset_data , submission = submission_data)['RPS']
+print('RPS: ', RPS_calculation(hist_data = asset_data , submission = submission_data)['RPS'])
 
-IR_calculation(hist_data, submission)['IR']
+print('IR: ', IR_calculation(hist_data, submission)['IR'])
 
-    
