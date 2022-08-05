@@ -56,7 +56,7 @@ def RPS_calculation(hist_data, submission, asset_no=100):
     if len(Series_per_position) == len(asset_id):
         # no ties, use fast code
         returns['Rank'] = pd.qcut(returns['Return'], q=[0, .2, .4, .6, .8, 1]).cat.codes + 1
-        ranking =  pd.concat([ranking, returns['Rank'], pd.get_dummies(returns['Rank'], prefix='Rank').astype(float)], axis=1)
+        ranking =  pd.concat([ranking, returns['Rank'], pd.get_dummies(returns['Rank'], prefix='Rank').rename(columns=lambda x: x.replace('_', '')).astype(float)], axis=1)
     else:
         temp = ranking.Position.value_counts()
         temp = pd.DataFrame(zip(temp.index, temp), columns = ["Rank", "Occurencies"])
@@ -99,17 +99,12 @@ def RPS_calculation(hist_data, submission, asset_no=100):
         ranking = ranking[["ID", "Return", "Position", "Rank", "Rank1", "Rank2", "Rank3", "Rank4", "Rank5"]]
         ranking = ranking.sort_values(["Position"])
 
-    #Evaluate submission
-    rps_sub = []
-    #for aid in list((pd.unique(ranking.ID))):
-    for aid in asset_id:
+    rps_sub = (
+        (submission.set_index('ID').filter(regex=r'Rank\d').cumsum(axis=1)
+        - ranking.set_index('ID').filter(regex=r'Rank\d').cumsum(axis=1))**2
+    ).mean(axis=1).mean()
 
-        target = np.cumsum(ranking.loc[ranking.ID==aid].iloc[:,4:9].values).tolist()
-        frc = np.cumsum(submission.loc[submission.ID==aid].iloc[:,1:6].values).tolist()
-        rps_sub.append(np.mean([(a - b)**2 for a, b in zip(target, frc)]))
-    submission["RPS"] = rps_sub
-
-    output = {'RPS' : np.mean(rps_sub),
+    output = {'RPS' : rps_sub,
               'details' : submission}
 
     return(output)
