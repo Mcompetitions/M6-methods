@@ -4,7 +4,7 @@
 
 * **Evaluation - example.xlsx**: Example of IR and RPS calculations in an excel file, assuming benchmark submissions.
 
-Also, R and Python scripts to:
+Also, **R** and **Python** scripts to:
 
 * Download historical prices data for the M6 universe assets 
 Here, we provide an example when the free-to-use Yahoo API is employed, but other APIs may be more appropriate for collecting historical data. 
