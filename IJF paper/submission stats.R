@@ -5,7 +5,6 @@ sub_period_name <- c("Trial run","1st Submission", "2nd Submission", "3rd Submis
                      "7th Submission", "8th Submission", "9th Submission",
                      "10th Submission", "11th Submission", "12th Submission")
 
-setwd("C:/Users/vangelis spil/Google Drive/M6 submission platform/GitHub")
 datain <- read.csv("submissions.csv")
 #Filter active teams
 datain <- datain[datain$IsActive==1,]
