@@ -10,7 +10,7 @@ Below you may find a brief description of each file:
 
 * **performance_vs_answers_unique.csv**: Provides - based on the answers of the participants to the questionnaire - an indicative classification (TS, ML, Combination, Judgment, Related, NotRelated) of the methods used.
 
-* **Baseline for evaluating the hypotheses.R**: Used for processing the original submissions and computing key statistics, such as returns, risk, IR, RPS and OR per month, quarter, and in total. The output of this script ("Score compute.Rdata") is used as input in scripts "Hypothesis1.R", "Hypothesis2.R", ... "Hypothesis9_10.R".
+* **Baseline for evaluating the hypotheses.R**: Used for processing the original submissions and computing key statistics, such as returns, risk, IR, RPS and OR per month, quarter, and in total. The output of this script ("Score compute.Rdata") is used as input in scripts "Hypothesis1.R", "Hypothesis2.R", ... "Hypothesis9_10.R", among others.
 
 * **IR and RPS evolution.R**: Used to demonstrate the daily evolution of the IR and RPS scores of the participating teams.
 
@@ -20,5 +20,5 @@ Below you may find a brief description of each file:
 
 * **HypothesisX.R**: A set of scripts used for evaluating the ten hypotheses of the M6 made before launching the competition.
 
-* **forecast-investing connection.R**: Used to evaluate the degree of connection between the forecasts (predicted rank) and the decisions (investment weights). The analysis effectively classifies the submissions of the participating teams into "Well Connected", "Connected", "Weakly Connected", "Disconnected" and "Opposite Connection".
+* **forecast-investing connection.R**: Used to evaluate the degree of connection between the forecasts (predicted rank) and the decisions (investment weights). The analysis effectively classifies the submissions of the participating teams into "Well Connected", "Connected", "Weakly Connected", "Disconnected" and "Opposite Connection". The output of this script ("connection for H4.csv") is used as input in script "Hypothesis4.R".
 
