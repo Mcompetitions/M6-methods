@@ -18,11 +18,7 @@ Below you may find a brief description of each file:
 
 * **submission stats.R**: Used to extract summary statistics of the submissions, including the number of participating teams and those that updated their submissions regularly.
 
-* **HypothesisX.R**: Scripts used for evaluating hypotheses the ten hypotheses.
+* **HypothesisX.R**: A set of scripts used for evaluating the ten hypotheses of the M6 made before launching the competition.
 
-* **forecast-investing connection.R**:
-
-
-
-
+* **forecast-investing connection.R**: Used to evaluate the degree of connection between the forecasts (predicted rank) and the decisions (investment weights). The analysis effectively classifies the submissions of the participating teams into "Well Connected", "Connected", "Weakly Connected", "Disconnected" and "Opposite Connection".
 
