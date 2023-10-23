@@ -2,7 +2,7 @@ Contains the data and code used within the M6 International Journal of Forecasti
 
 Below you may find a brief description of each file:
 
-* **assets_m6.csv**: Daily adjusted close prices for the M6 assets (symbol, date, price).
+* **assets_m6.csv**: Daily adjusted close prices of the M6 assets (symbol, date, price).
 
 * **submissions.csv**: Submissions made by the participating teams (team id - Team, month of submission - Submission, month used for evaluation purposes - Evaluation, asset symbol - Symbol, investment weight - Decision, probability of being ranked 1-5 - Rank1 to Rank5, indication whether the team is active and eligible for any prize - IsActive).
 
