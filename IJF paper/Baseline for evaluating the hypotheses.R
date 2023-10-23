@@ -130,8 +130,6 @@ IR_calculation <- function(hist_data, submission){
   
 }
 
-setwd("C:/Users/vangelis spil/Google Drive/M6 submission platform/GitHub")
-
 #Compute results ----
 #Read asset data
 asset_data<- read.csv("assets_m6.csv", stringsAsFactors = F)
