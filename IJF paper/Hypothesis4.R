@@ -226,14 +226,14 @@ tn <- 15
 x <- head(scores[,c("High","Moderate","Low")],tn)
 boxplot(x, ylab="Average Weight", main=paste0("IR"), ylim=c(0,0.02))
 
-connection <- read.csv("connection for H4.txt", sep="\t")
+connection <- read.csv("connection for H4.csv")
 #Well connected - 39
-wc_t <- na.omit(connection[connection$Class.2..connection.score.=="1.Well Connected",]$id)
+wc_t <- na.omit(connection[connection$class=="Well Connected",]$id)
 x <- head(scores[scores$Team %in% wc_t, c("High","Moderate","Low")],tn)
 boxplot(x, ylab="Average Weight", main=paste0("Well Connected  - Correlation"), ylim=c(0,0.02))
 
 #Connected - 20
-c_t <- na.omit(connection[connection$Class.2..connection.score.=="2.Connected",]$id)
+c_t <- na.omit(connection[connection$class=="Connected",]$id)
 x <- head(scores[scores$Team %in% c_t, c("High","Moderate","Low")],tn)
 boxplot(x, ylab="Average Weight", main=paste0("Connected - Correlation"), ylim=c(0,0.02))
 
