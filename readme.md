@@ -2,7 +2,7 @@
 
 * **submissions.csv**: Submissions made by the participating teams. This includes the id of the team (Team), month of submission (Submission), month the submissions was used for evaluation purposes (Evaluation), asset symbol (Symbol), investment weight (Decision), probability that the asset is ranked 1-5 (Rank1, Rank2, Rank3, Rank4, Rank5), and an indication whether the team is active and eligible for a prize (IsActive).
 
-* * **submissions.csv**: 
+* **Evaluation - example.xlsx**: Example of IR and RPS calculations in an excel file, assuming benchmark submissions.
 
 Also, R and Python scripts to:
 
