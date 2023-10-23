@@ -4,7 +4,7 @@ Below you may find a brief description of each file:
 
 * **assets_m6.csv**: Daily adjusted close prices of the M6 assets (symbol, date, price).
 
-* **submissions.csv**: Submissions made by the participating teams (team id - Team, month of submission - Submission, month used for evaluation purposes - Evaluation, asset symbol - Symbol, investment weight - Decision, probability of being ranked 1-5 - Rank1 to Rank5, indication whether the team is active and eligible for any prize - IsActive).
+* **submissions.csv**: Submissions made by the participating teams. This includes the id of the team (Team), month of submission (Submission), month the submissions was used for evaluation purposes (Evaluation), asset symbol (Symbol), investment weight (Decision), probability of being ranked 1-5 (Rank1, Rank2, Rank3, Rank4, Rank5), and an indication whether the team is active and eligible for any prize (IsActive).
 
 * **summary_leaderboard.xlsx**: Summarizes the performance (leaderboard) of the participating teams per month, quarter and in total. The file also includes in separate tabs the information available in the "assets_m6.csv" and "submissions.csv" files. Moreover, for each team, it displays the evolution of the RPS, IR, and OR scores.
 
