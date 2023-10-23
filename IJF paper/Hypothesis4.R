@@ -94,7 +94,6 @@ RPS_calculation2 <- function(hist_data, submission){
   
 }
 
-setwd("C:/Users/vangelis spil/Google Drive/M6 submission platform/GitHub")
 load("Score compute.Rdata")
 
 #Select teams in global leaderboard
