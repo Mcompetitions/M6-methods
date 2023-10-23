@@ -2,7 +2,6 @@ library(plyr)
 library(fGarch)
 library(corrplot)
 
-setwd("C:/Users/vangelis spil/Google Drive/M6 submission platform/GitHub")
 load("Score compute.Rdata")
 
 #Number of teams with better score per quarter and month
