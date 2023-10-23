@@ -10,7 +10,7 @@ Below you may find a brief description of each file:
 
 * **performance_vs_answers_unique.csv**: Provides - based on the answers of the participants to the questionnaire - an indicative classification of the utilized methods (TS, ML, Combination, Judgment, Related, NotRelated).
 
-* **Baseline for evaluating the hypotheses.R**: Used for processing the original submissions and computing key statistics, such as returns, risk, IR, RPS and OR per month, quarter, and in total. The output of this script ("Score compute.Rdata") is used as input in scripts "Hypothesis1.R", "Hypothesis2.R", ... "Hypothesis8.R".
+* **Baseline for evaluating the hypotheses.R**: Used for processing the original submissions and computing key statistics, such as returns, risk, IR, RPS and OR per month, quarter, and in total. The output of this script ("Score compute.Rdata") is used as input in scripts "Hypothesis1.R", "Hypothesis2.R", ... "Hypothesis9_10.R".
 
 * **HypothesisX.R**: Scripts used for evaluating hypotheses the ten hypotheses.
 
