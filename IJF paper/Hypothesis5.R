@@ -4,7 +4,6 @@ library(corrplot)
 library(ggplot2)
 library(ggpubr)
 
-setwd("C:/Users/vangelis spil/Google Drive/M6 submission platform/GitHub")
 load("Score compute.Rdata")
 
 ## Hypothesis No.5 ----
