@@ -1,0 +1,1 @@
+Contains the code used within the M6 IJF main paper for analyzing the results of the competition.
