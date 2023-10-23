@@ -12,7 +12,7 @@ Below you may find a brief description of each file:
 
 * **Baseline for evaluating the hypotheses.R**: Used for processing the original submissions and computing key statistics, such as returns, risk, IR, RPS and OR per month, quarter, and in total. The output of this script ("Score compute.Rdata") is used as input in scripts "Hypothesis1.R", "Hypothesis2.R", ... "Hypothesis8.R".
 
-* **HypothesisX.R**: Scripts used for evaluating hypotheses 1-8.
+* **HypothesisX.R**: Scripts used for evaluating hypotheses 1-10.
 
 * **IR and RPS evolution.R**: Used to demonstrate the daily evolution of the IR and RPS scores of the participating teams.
 
