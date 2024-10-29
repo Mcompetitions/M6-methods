@@ -12,9 +12,9 @@ library(purrr)
 assets <- c(
   "ABBV","ACN","AEP","AIZ","ALLE","AMAT","AMP","AMZN","AVB","AVY",   
   "AXP","BDX","BF-B","BMY","BR","CARR","CDW","CE","CHTR","CNC",   
-  "CNP","COP","CTAS","CZR","DG","DPZ","DRE","DXC","META","FTV",   
+  "CNP","COP","CTAS","CZR","DG","DPZ","DXC","META","FTV",   
   "GOOG","GPC","HIG","HST","JPM","KR","OGN","PG","PPL","PRU",   
-  "PYPL","RE","ROL","ROST","UNH","URI","V","VRSK","WRK","XOM",   
+  "PYPL","ROL","ROST","UNH","URI","V","VRSK","WRK","XOM",   
   "IVV","IWM","EWU","EWG","EWL","EWQ","IEUS","EWJ","EWT","MCHI",  
   "INDA","EWY","EWA","EWH","EWZ","EWC","IEMG","LQD","HYG","SHY",  
   "IEF","TLT","SEGA.L","IEAA.L","HIGH.L","JPEA.L","IAU","SLV","GSG","REET",  
